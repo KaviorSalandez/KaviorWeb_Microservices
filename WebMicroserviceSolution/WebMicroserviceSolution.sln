@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{1C7C49F0-EFE5-4EFC-9F0B-B3A72870A8B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{5B3E43D5-3F32-4032-BD4A-5E2E1D98898A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{F0EA8032-7305-416E-9AF4-6FBBE1FA53A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FD903B2A-8D2E-4D80-8921-80CEB927511D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kavior.Services.CouponAPI", "Kavior.Services.CouponAPI\Kavior.Services.CouponAPI.csproj", "{601EF4F6-21D1-4D28-8729-7B06E2769B28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{601EF4F6-21D1-4D28-8729-7B06E2769B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601EF4F6-21D1-4D28-8729-7B06E2769B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601EF4F6-21D1-4D28-8729-7B06E2769B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601EF4F6-21D1-4D28-8729-7B06E2769B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{601EF4F6-21D1-4D28-8729-7B06E2769B28} = {FD903B2A-8D2E-4D80-8921-80CEB927511D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4625A06-2A2B-4C4B-B0DF-2B5181218C30}
+	EndGlobalSection
+EndGlobal
