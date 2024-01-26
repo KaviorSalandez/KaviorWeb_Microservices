@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FD903B2A-8D2E-4D80-8921-80CEB927511D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kavior.Services.CouponAPI", "Kavior.Services.CouponAPI\Kavior.Services.CouponAPI.csproj", "{601EF4F6-21D1-4D28-8729-7B06E2769B28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kavior.Services.CouponAPI", "Kavior.Services.CouponAPI\Kavior.Services.CouponAPI.csproj", "{601EF4F6-21D1-4D28-8729-7B06E2769B28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
