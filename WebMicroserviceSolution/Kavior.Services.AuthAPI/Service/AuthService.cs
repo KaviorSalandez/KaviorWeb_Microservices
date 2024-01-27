@@ -11,18 +11,64 @@ namespace Kavior.Services.AuthAPI.Service
         private readonly AppDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        public AuthService(AppDbContext context, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+        private readonly IJwtTokenGenerator _jwtTokenGenerator;
+
+        public AuthService(AppDbContext context, IJwtTokenGenerator jwtTokenGenerator, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _context = context;
             _userManager = userManager;
             _roleManager = roleManager;
-        }
-        public Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto)
-        {
-            throw new NotImplementedException();
+            _jwtTokenGenerator = jwtTokenGenerator;
+
         }
 
-        public async Task<UserDto> Register(RegisterationRequestDto registerationRequestDto)
+        public async Task<bool> AssignRole(string email, string roleName)
+        {
+            var user = _context.ApplicationUsers.FirstOrDefault(x => x.Email.ToLower() ==email.ToLower());
+            if(user != null)
+            {
+                if (!_roleManager.RoleExistsAsync(roleName).GetAwaiter().GetResult())
+                {
+                    // create role if it does not exist
+                    _roleManager.CreateAsync(new IdentityRole(roleName)).GetAwaiter().GetResult();
+                }
+                await _userManager.AddToRoleAsync(user, roleName);
+                return true;
+            }
+            return false;
+        }
+
+        public async Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto)
+        {
+            var user = _context.ApplicationUsers.FirstOrDefault(x => x.UserName.ToLower() == loginRequestDto.Username.ToLower());
+            bool isValid = await _userManager.CheckPasswordAsync(user, loginRequestDto.Password);
+            if (user == null || isValid == false)
+            {
+                return new LoginResponseDto { 
+                    User = null,
+                    Token= ""
+                };
+            }
+            // if user was found, generate jwt token
+            var token =  _jwtTokenGenerator.GenerateToken(user);
+
+            UserDto userDto = new UserDto()
+            {
+                Email = user.Email,
+                Id = user.Id,
+                Name = user.Name,
+                PhoneNumber = user.PhoneNumber
+            };
+            LoginResponseDto loginResponseDto = new LoginResponseDto()
+            {
+                User = userDto,
+                Token =token
+            };
+            return loginResponseDto;
+
+        }
+
+        public async Task<string> Register(RegisterationRequestDto registerationRequestDto)
         {
             ApplicationUser user = new()
             {
@@ -45,15 +91,18 @@ namespace Kavior.Services.AuthAPI.Service
                         PhoneNumber = userToReturn.PhoneNumber,
                         Name = userToReturn.Name
                     };
-                    return userDto;
+                    return "";
+                }
+                else
+                {
+                    return result.Errors.FirstOrDefault().Description;
                 }
             }
             catch (Exception ex)
             {
 
-                throw;
             }
-            return new UserDto();
+            return "Error Encountered";
         }
     }
 }

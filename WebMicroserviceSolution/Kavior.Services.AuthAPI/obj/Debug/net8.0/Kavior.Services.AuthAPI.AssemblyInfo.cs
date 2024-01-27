@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kavior.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ab8e55d90d534b0976b99ff6e0946519145c116")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1319aa535c1d5fffde0ed4305b7740f2ab2ce2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kavior.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kavior.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
