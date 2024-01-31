@@ -30,3 +30,8 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\Kavior.Web.pdb
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\Kavior.Web.genruntimeconfig.cache
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\ref\Kavior.Web.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

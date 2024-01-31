@@ -9,16 +9,23 @@ namespace Kavior.Web.Service
     public class BaseService : IBaseService
     {
         private readonly IHttpClientFactory _client;
-        public BaseService(IHttpClientFactory client)
+        private readonly ITokenProvider _tokenProvider;
+        public BaseService(IHttpClientFactory client, ITokenProvider tokenProvider)
         {
             _client = client;
+            _tokenProvider = tokenProvider;
         }
-        public async Task<ResponseDto>? SendAsync(RequestDto requestDto)
+        public async Task<ResponseDto>? SendAsync(RequestDto requestDto, bool withBear = true)
         {
             HttpClient client = _client.CreateClient("KaviorAPI");
             HttpRequestMessage message = new();
             message.Headers.Add("Accept", "application/json");
             //token for authen in futures
+            if(withBear)
+            {
+                var token = _tokenProvider.GetToken();
+                message.Headers.Add("Authorization", $"Bearer {token}");
+            }
 
             // url: chỉ định URL mà chúng tôi sẽ gọi để truy cập bất kỳ API nào
             message.RequestUri = new Uri(requestDto.Url.ToString());

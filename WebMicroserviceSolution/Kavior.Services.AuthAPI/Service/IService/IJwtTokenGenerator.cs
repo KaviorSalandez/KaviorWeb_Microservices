@@ -4,6 +4,6 @@ namespace Kavior.Services.AuthAPI.Service.IService
 {
     public interface IJwtTokenGenerator
     {
-        string GenerateToken(ApplicationUser appUser);
+        string GenerateToken(ApplicationUser appUser, IEnumerable<string> roles);
     }
 }

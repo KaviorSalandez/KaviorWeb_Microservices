@@ -18,7 +18,7 @@ namespace Kavior.Services.AuthAPI.Service
             _jwtOptions = jwtOptions.Value;   
 
         }
-        public string GenerateToken(ApplicationUser appUser)
+        public string GenerateToken(ApplicationUser appUser, IEnumerable<string> roles)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_jwtOptions.Secret);
@@ -28,6 +28,8 @@ namespace Kavior.Services.AuthAPI.Service
                 new Claim(JwtRegisteredClaimNames.Sub, appUser.Id),
                 new Claim(JwtRegisteredClaimNames.Name, appUser.UserName.ToString()),
             };
+            claimList.AddRange(roles.Select(role=> new Claim(ClaimTypes.Role,role)));
+
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Audience = _jwtOptions.Audience,

@@ -49,8 +49,11 @@ namespace Kavior.Services.AuthAPI.Service
                     Token= ""
                 };
             }
+            // find all of user role
+            var roles = await _userManager.GetRolesAsync(user);
+
             // if user was found, generate jwt token
-            var token =  _jwtTokenGenerator.GenerateToken(user);
+            var token =  _jwtTokenGenerator.GenerateToken(user,roles);
 
             UserDto userDto = new UserDto()
             {
