@@ -24,7 +24,6 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Kavior.Web.props
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\staticwebassets.pack.json
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\scopedcss\bundle\Kavior.Web.styles.css
-D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\Kavior.Web.csproj.CopyComplete
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\Kavior.Web.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\refint\Kavior.Web.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\Kavior.Web.pdb
@@ -35,3 +34,4 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Web\obj\Debug\net8.0\Kavior.Web.csproj.Up2Date

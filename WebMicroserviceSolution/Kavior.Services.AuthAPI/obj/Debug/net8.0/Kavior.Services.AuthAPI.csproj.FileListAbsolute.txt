@@ -138,9 +138,9 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\ob
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Kavior.Services.AuthAPI.props
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\staticwebassets.pack.json
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\scopedcss\bundle\Kavior.Services.AuthAPI.styles.css
-D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\Kavior.Services.AuthAPI.csproj.CopyComplete
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\Kavior.Services.AuthAPI.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\refint\Kavior.Services.AuthAPI.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\Kavior.Services.AuthAPI.pdb
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\Kavior.Services.AuthAPI.genruntimeconfig.cache
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\ref\Kavior.Services.AuthAPI.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\Kavior.S.90DF336B.Up2Date

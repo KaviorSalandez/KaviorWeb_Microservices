@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q1NMPA/en5c6uv4hiBImW4wmZ0tS6taYsl8chY8X1aRZC8SdDonnJe3V/TyyMop1dq/ekmq6pz9D9qyi8+Ra9g==",
+  "dgSpecHash": "aEIbeBvr+7NdHKimT+J6yeI8eY6mEl1EdIzKa/nONI6DkMoljfJ3n4d6onZlF0+jqVuQ0bbCP+Nn/vS7MZn+fw==",
   "success": true,
   "projectFilePath": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.AuthAPI\\Kavior.Services.AuthAPI.csproj",
   "expectedPackageFiles": [
