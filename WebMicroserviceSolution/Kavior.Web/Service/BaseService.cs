@@ -42,7 +42,7 @@ namespace Kavior.Web.Service
                 case Utility.SD.ApiType.POST: 
                     message.Method = HttpMethod.Post;   break;
                 case Utility.SD.ApiType.PUT:
-                    message.Method = HttpMethod.Post; break;
+                    message.Method = HttpMethod.Put; break;
                 case Utility.SD.ApiType.DELETE:
                     message.Method = HttpMethod.Delete; break;
                 default:

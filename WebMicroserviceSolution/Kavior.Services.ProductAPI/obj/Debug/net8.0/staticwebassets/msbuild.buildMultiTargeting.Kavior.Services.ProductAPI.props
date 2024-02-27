@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Kavior.Services.ProductAPI.props" />
+</Project>
