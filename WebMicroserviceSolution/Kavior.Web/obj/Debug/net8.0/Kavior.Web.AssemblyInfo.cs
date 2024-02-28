@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kavior.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d48c4178e0b9f8abecd75b6b2b365fbf415726d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9d9f4fe4059838d06934c3de3fbe28a19696304")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kavior.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kavior.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,48 +3,32 @@
   "WorkspaceRootPath": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\views\\coupon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\views\\coupon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA9579D6-39D7-4218-8E87-2E8AD917832B}|Kavior.Services.ProductAPI\\Kavior.Services.ProductAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA9579D6-39D7-4218-8E87-2E8AD917832B}|Kavior.Services.ProductAPI\\Kavior.Services.ProductAPI.csproj|solutionrelative:kavior.services.productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 73,
+          "SelectedChildIndex": 70,
           "Children": [
             {
               "$type": "Bookmark",
@@ -314,145 +298,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Product\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Kavior.Web\\Views\\Product\\Delete.cshtml",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Product\\Delete.cshtml",
-              "RelativeToolTip": "Kavior.Web\\Views\\Product\\Delete.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Coupon\\Create.cshtml",
+              "RelativeDocumentMoniker": "Kavior.Web\\Views\\Coupon\\Create.cshtml",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Coupon\\Create.cshtml",
+              "RelativeToolTip": "Kavior.Web\\Views\\Coupon\\Create.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-27T16:11:45.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\BaseService.cs",
-              "RelativeDocumentMoniker": "Kavior.Web\\Service\\BaseService.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\BaseService.cs",
-              "RelativeToolTip": "Kavior.Web\\Service\\BaseService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCwAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:25:35.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBaseService.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\IService\\IBaseService.cs",
-              "RelativeDocumentMoniker": "Kavior.Web\\Service\\IService\\IBaseService.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\IService\\IBaseService.cs",
-              "RelativeToolTip": "Kavior.Web\\Service\\IService\\IBaseService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:25:26.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CouponService.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\CouponService.cs",
-              "RelativeDocumentMoniker": "Kavior.Web\\Service\\CouponService.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\CouponService.cs",
-              "RelativeToolTip": "Kavior.Web\\Service\\CouponService.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:23:32.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Kavior.Web\\Program.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Program.cs",
-              "RelativeToolTip": "Kavior.Web\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABMAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:22:28.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "Kavior.Web\\appsettings.json",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\appsettings.json",
-              "RelativeToolTip": "Kavior.Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-27T15:22:17.904Z",
+              "WhenOpened": "2024-02-28T09:33:09.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductAPIController.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "RelativeToolTip": "Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAWwFIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:08:39.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "Kavior.Web\\Service\\ProductService.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\ProductService.cs",
-              "RelativeToolTip": "Kavior.Web\\Service\\ProductService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIAwwBgAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:02:33.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\IService\\IProductService.cs",
-              "RelativeDocumentMoniker": "Kavior.Web\\Service\\IService\\IProductService.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\IService\\IProductService.cs",
-              "RelativeToolTip": "Kavior.Web\\Service\\IService\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:02:26.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Kavior.Web\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Kavior.Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAD4v0wAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:02:19.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Models\\ProductDto.cs",
               "RelativeDocumentMoniker": "Kavior.Web\\Models\\ProductDto.cs",
               "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Models\\ProductDto.cs",
               "RelativeToolTip": "Kavior.Web\\Models\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:30:53.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Home\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "Kavior.Web\\Views\\Home\\ProductDetails.cshtml",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Home\\ProductDetails.cshtml",
+              "RelativeToolTip": "Kavior.Web\\Views\\Home\\ProductDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T09:19:15.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Kavior.Web\\appsettings.json",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\appsettings.json",
+              "RelativeToolTip": "Kavior.Web\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-28T09:08:29.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Program.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Program.cs",
+              "RelativeToolTip": "Kavior.Web\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T15:02:17.316Z",
+              "WhenOpened": "2024-02-28T09:08:25.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kavior.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Kavior.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T08:50:02.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Kavior.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T08:49:49.12Z",
               "EditorCaption": ""
             }
           ]
