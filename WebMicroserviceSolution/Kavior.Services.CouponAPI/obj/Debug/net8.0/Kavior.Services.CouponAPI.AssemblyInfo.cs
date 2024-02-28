@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kavior.Services.CouponAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9d9f4fe4059838d06934c3de3fbe28a19696304")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fafeb4e2465fb9064390f914d3b12a9a4ddd944")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kavior.Services.CouponAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kavior.Services.CouponAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

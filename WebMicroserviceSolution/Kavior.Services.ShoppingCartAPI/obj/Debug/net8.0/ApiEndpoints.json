@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Kavior.Services.ShoppingCartAPI.Controllers.CartAPIController",
+    "Method": "CartUpSert",
+    "RelativePath": "api/cart/CartUpSert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "Kavior.Services.ShoppingCartAPI.Models.Dto.CartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Kavior.Services.ShoppingCartAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
