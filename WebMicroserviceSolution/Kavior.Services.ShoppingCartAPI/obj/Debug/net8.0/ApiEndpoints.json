@@ -24,5 +24,57 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Kavior.Services.ShoppingCartAPI.Controllers.CartAPIController",
+    "Method": "GetCart",
+    "RelativePath": "api/cart/GetCart/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Kavior.Services.ShoppingCartAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Kavior.Services.ShoppingCartAPI.Controllers.CartAPIController",
+    "Method": "RemoveCart",
+    "RelativePath": "api/cart/RemoveCart",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDetailsId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Kavior.Services.ShoppingCartAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

@@ -22,12 +22,36 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
             _context = context;
             _response = new ResponseDto();
         }
+        [HttpGet("GetCart/{userId}")]
+        public async Task<ResponseDto> GetCart( string userId)
+        {
+            try
+            {
+                CartDto cart = new()
+                {
+                    CartHeader = _mapper.Map<CartHeaderDto>(_context.CartHeaders.First(x=>x.UserId== userId))  
+                };
+                cart.CartDetails = _mapper.Map<IEnumerable<CartDetailsDto>>(_context.CartDetails.Where(x=>x.CartHeaderId == cart.CartHeader.Id));
+
+                foreach (var item in cart.CartDetails)
+                {
+                    cart.CartHeader.CartTotal += (item.Count * item.Product.Price);
+                }
+                _response.Result = cart;
+            }
+            catch (Exception ex)
+            {
+                _response.Message = ex.Message;
+                _response.IsSuccess = false;
+            }
+            return _response;
+        }
         [HttpPost("CartUpSert")]
         public async Task<ResponseDto> CartUpSert(CartDto cartDto)
         {
             try
             {
-                var cartHeaderFromDb = await _context.CartHeaders.FirstOrDefaultAsync(x => x.UserId == cartDto.CartHeader.UserId);
+                var cartHeaderFromDb = await _context.CartHeaders.AsNoTracking().FirstOrDefaultAsync(x => x.UserId == cartDto.CartHeader.UserId);
                 if(cartHeaderFromDb == null)
                 {
                     // create header and details
@@ -43,7 +67,7 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
                 {
                     // if header is not null
                     // check if details has same product
-                    var cartDetailsFromDb = await _context.CartDetails
+                    var cartDetailsFromDb = await _context.CartDetails.AsNoTracking()
                                             .FirstOrDefaultAsync(x=>x.ProductId == cartDto.CartDetails.First().ProductId && x.CartHeaderId== cartHeaderFromDb.Id);
                     if(cartDetailsFromDb == null)
                     {
@@ -56,7 +80,7 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
                     else
                     {
                         // update count in cart details
-                        cartDto.CartDetails.First().Count+= cartDetailsFromDb.Count;
+                        cartDto.CartDetails.First().Count += cartDetailsFromDb.Count;
                         cartDto.CartDetails.First().CartHeaderId = cartDetailsFromDb.CartHeaderId;
                         cartDto.CartDetails.First().Id= cartDetailsFromDb.Id;
                         _context.CartDetails.Update(_mapper.Map<CartDetails>(cartDto.CartDetails.First()));
@@ -73,6 +97,43 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
             }
             return _response;
         }
+
+
+
+
+        [HttpDelete("RemoveCart")]
+        public async Task<ResponseDto> RemoveCart([FromBody] int cartDetailsId)
+        {
+            try
+            {
+                CartDetails cartDetails = _context.CartDetails.First(x=>x.Id== cartDetailsId);
+
+                int totalCountOfCartItem = _context.CartDetails.Where(x => x.CartHeaderId == cartDetails.CartHeaderId).Count();
+                //trước khi xóa cartheader cần xóa cartdetail
+                _context.CartDetails.Remove(cartDetails);
+                
+                if (totalCountOfCartItem == 1)
+                {
+                    // có nghĩa đây là item cuối cùng mà ng dùng xóa khỏi giỏ hàng -> xóa luôn cartHeader
+                    var cartHeaderToRemove = await _context.CartHeaders.FirstOrDefaultAsync(x => x.Id == cartDetails.CartHeaderId);
+                    _context.CartHeaders.Remove(cartHeaderToRemove);
+                }
+                await _context.SaveChangesAsync();
+              
+                _response.Result = true;
+
+            }
+            catch (Exception ex)
+            {
+                _response.Message = ex.Message;
+                _response.IsSuccess = false;
+            }
+            return _response;
+        }
+
+
+
+
 
     }
 }
