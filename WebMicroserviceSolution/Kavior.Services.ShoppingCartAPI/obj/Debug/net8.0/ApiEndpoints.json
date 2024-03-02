@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "Kavior.Services.ShoppingCartAPI.Controllers.CartAPIController",
+    "Method": "ApplyCounpon",
+    "RelativePath": "api/cart/ApplyCoupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "Kavior.Services.ShoppingCartAPI.Models.Dto.CartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kavior.Services.ShoppingCartAPI.Controllers.CartAPIController",
     "Method": "CartUpSert",
     "RelativePath": "api/cart/CartUpSert",
     "HttpMethod": "POST",

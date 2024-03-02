@@ -35,6 +35,7 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ShoppingCa
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ShoppingCartAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ShoppingCartAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ShoppingCartAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ShoppingCartAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ShoppingCartAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ShoppingCartAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ShoppingCartAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

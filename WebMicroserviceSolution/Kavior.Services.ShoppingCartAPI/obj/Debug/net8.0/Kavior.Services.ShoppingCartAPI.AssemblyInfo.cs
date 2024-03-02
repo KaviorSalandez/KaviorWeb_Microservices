@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kavior.Services.ShoppingCartAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bce78508da6589735df2a3347b6835e446946bdc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2abab52b8199cc0cee8c331200ec3dae123dcdea")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kavior.Services.ShoppingCartAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kavior.Services.ShoppingCartAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\service\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\service\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\models\\dto\\cartheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\models\\dto\\cartheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{601EF4F6-21D1-4D28-8729-7B06E2769B28}|Kavior.Services.CouponAPI\\Kavior.Services.CouponAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601EF4F6-21D1-4D28-8729-7B06E2769B28}|Kavior.Services.CouponAPI\\Kavior.Services.CouponAPI.csproj|solutionrelative:kavior.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA9579D6-39D7-4218-8E87-2E8AD917832B}|Kavior.Services.ProductAPI\\Kavior.Services.ProductAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA9579D6-39D7-4218-8E87-2E8AD917832B}|Kavior.Services.ProductAPI\\Kavior.Services.ProductAPI.csproj|solutionrelative:kavior.services.productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\models\\cartheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\models\\cartheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\models\\cartdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\models\\cartdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 70,
+          "SelectedChildIndex": 64,
           "Children": [
             {
               "$type": "Bookmark",
@@ -302,102 +298,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartHeaderDto.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Models\\Dto\\CartHeaderDto.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Models\\Dto\\CartHeaderDto.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Models\\Dto\\CartHeaderDto.cs",
-              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Models\\Dto\\CartHeaderDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "DocumentIndex": 0,
+              "Title": "CouponService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Service\\CouponService.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Service\\CouponService.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Service\\CouponService.cs",
+              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Service\\CouponService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:17:47.432Z",
+              "WhenOpened": "2024-03-02T15:59:31.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartHeader.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Models\\CartHeader.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Models\\CartHeader.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Models\\CartHeader.cs",
-              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Models\\CartHeader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:17:12.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartDetails.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Models\\CartDetails.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Models\\CartDetails.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Models\\CartDetails.cs",
-              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Models\\CartDetails.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:17:06.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:16:39.137Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CartDto.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Models\\Dto\\CartDto.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Models\\Dto\\CartDto.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Models\\Dto\\CartDto.cs",
-              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Models\\Dto\\CartDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAnAAAA",
+              "Title": "CouponAPIController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "RelativeToolTip": "Kavior.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T14:12:02.431Z",
+              "WhenOpened": "2024-03-02T15:58:43.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductAPIController.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "RelativeToolTip": "Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Title": "CouponController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\CouponController.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Controllers\\CouponController.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\CouponController.cs",
+              "RelativeToolTip": "Kavior.Web\\Controllers\\CouponController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:27:45.799Z"
+              "WhenOpened": "2024-03-02T15:58:28.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\CartService.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Service\\CartService.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\CartService.cs",
+              "RelativeToolTip": "Kavior.Web\\Service\\CartService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T15:29:13.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CartAPIController.cs",
               "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
               "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
               "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
               "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwBoAAAAIAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T13:27:27.526Z",
+              "WhenOpened": "2024-03-02T15:27:46.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Program.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Program.cs",
-              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Kavior.Web\\Controllers\\CartController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAiwD8AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:18:57.441Z"
+              "WhenOpened": "2024-03-02T15:17:37.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kavior.Web\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Kavior.Web\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAWwFkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-02T13:48:57.118Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -4,7 +4,8 @@
     "Projects": [
       {
         "Name": "Kavior.Services.CouponAPI\\Kavior.Services.CouponAPI.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": ""
       },
       {
         "Name": "Kavior.Web\\Kavior.Web.csproj",
@@ -20,6 +21,10 @@
         "Name": "Kavior.Services.ProductAPI\\Kavior.Services.ProductAPI.csproj",
         "Action": "Start",
         "DebugTarget": ""
+      },
+      {
+        "Name": "Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj",
+        "Action": "Start"
       }
     ]
   }

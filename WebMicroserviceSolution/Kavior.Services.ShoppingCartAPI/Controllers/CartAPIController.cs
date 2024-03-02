@@ -2,6 +2,7 @@
 using Kavior.Services.ShoppingCartAPI.Data;
 using Kavior.Services.ShoppingCartAPI.Models;
 using Kavior.Services.ShoppingCartAPI.Models.Dto;
+using Kavior.Services.ShoppingCartAPI.Service.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -16,11 +17,15 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
         private ResponseDto _response;
         private IMapper _mapper;
         private readonly AppDbContext _context;
-        public CartAPIController(AppDbContext context, IMapper mapper)
+        private readonly IProductService _productService;
+        private readonly ICouponService _couponService;
+        public CartAPIController(AppDbContext context, IMapper mapper,IProductService productService, ICouponService couponService)
         {
             _mapper = mapper;
             _context = context;
             _response = new ResponseDto();
+            _productService = productService;
+            _couponService = couponService;
         }
         [HttpGet("GetCart/{userId}")]
         public async Task<ResponseDto> GetCart( string userId)
@@ -33,10 +38,26 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
                 };
                 cart.CartDetails = _mapper.Map<IEnumerable<CartDetailsDto>>(_context.CartDetails.Where(x=>x.CartHeaderId == cart.CartHeader.Id));
 
+                IEnumerable<ProductDto> productDtos = await _productService.GetProducts();
+
                 foreach (var item in cart.CartDetails)
                 {
+                    item.Product = productDtos.FirstOrDefault(x => x.Id == item.ProductId);
                     cart.CartHeader.CartTotal += (item.Count * item.Product.Price);
                 }
+                // apply coupon if any
+                if (!string.IsNullOrEmpty(cart.CartHeader.CouponCode))
+                {
+                    CouponDto couponDto =  await _couponService.GetCouponDto(cart.CartHeader.CouponCode);
+                    if(couponDto != null && cart.CartHeader.CartTotal>couponDto.MinAmount)
+                    {
+                        // make sure cartTotal is greater then minimum amount for a coupon
+                        cart.CartHeader.CartTotal -= couponDto.DiscountAmount;
+                        cart.CartHeader.Discount = couponDto.DiscountAmount;
+                    }
+
+                }
+
                 _response.Result = cart;
             }
             catch (Exception ex)
@@ -46,6 +67,25 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
             }
             return _response;
         }
+        [HttpPost("ApplyCoupon")]
+        public async Task<object> ApplyCounpon([FromBody] CartDto cartDto)
+        {
+            try
+            {
+                var cartFromDb = _context.CartHeaders.First(x=>x.UserId == cartDto.CartHeader.UserId);
+                cartFromDb.CouponCode = cartDto.CartHeader.CouponCode;
+                _context.CartHeaders.Update(cartFromDb);
+                await _context.SaveChangesAsync();
+                _response.Result = true;
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
         [HttpPost("CartUpSert")]
         public async Task<ResponseDto> CartUpSert(CartDto cartDto)
         {
@@ -109,11 +149,11 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
                 CartDetails cartDetails = _context.CartDetails.First(x=>x.Id== cartDetailsId);
 
                 int totalCountOfCartItem = _context.CartDetails.Where(x => x.CartHeaderId == cartDetails.CartHeaderId).Count();
-                //trước khi xóa cartheader cần xóa cartdetail
+                // xóa sản phẩm trong orderdetails
                 _context.CartDetails.Remove(cartDetails);
                 
                 if (totalCountOfCartItem == 1)
-                {
+                { 
                     // có nghĩa đây là item cuối cùng mà ng dùng xóa khỏi giỏ hàng -> xóa luôn cartHeader
                     var cartHeaderToRemove = await _context.CartHeaders.FirstOrDefaultAsync(x => x.Id == cartDetails.CartHeaderId);
                     _context.CartHeaders.Remove(cartHeaderToRemove);

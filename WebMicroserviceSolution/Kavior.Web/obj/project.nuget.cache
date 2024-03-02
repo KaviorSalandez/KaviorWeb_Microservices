@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r5XK3lHTtZMGFnb/VDqHi70OrdQNoA9wsBYn5aF+6wzOba5z6RN81PWAg15K4TDIKfxA4b22d0v1WVaRJVMR2w==",
+  "dgSpecHash": "kXCujv2c+YEEdd0Bc/uj0snt5x4UthsFASfcY5d4pNo9qhVf2MUcHSk5MGxw2UScm1mowkTk1DBLX9lhy2YBVw==",
   "success": true,
   "projectFilePath": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Kavior.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\canduykhanh\\.nuget\\packages\\identitymodel\\6.2.0\\identitymodel.6.2.0.nupkg.sha512",
     "C:\\Users\\canduykhanh\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.2.0\\microsoft.identitymodel.abstractions.7.2.0.nupkg.sha512",
     "C:\\Users\\canduykhanh\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.2.0\\microsoft.identitymodel.jsonwebtokens.7.2.0.nupkg.sha512",
     "C:\\Users\\canduykhanh\\.nuget\\packages\\microsoft.identitymodel.logging\\7.2.0\\microsoft.identitymodel.logging.7.2.0.nupkg.sha512",
