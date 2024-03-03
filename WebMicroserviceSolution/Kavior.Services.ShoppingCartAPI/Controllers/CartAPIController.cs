@@ -99,7 +99,7 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
                     _context.CartHeaders.Add(cartHeader);
                     await _context.SaveChangesAsync();
 
-                    cartDto.CartDetails.First().Id = cartHeader.Id;
+                    cartDto.CartDetails.First().CartHeaderId = cartHeader.Id;
                     _context.CartDetails.Add(_mapper.Map<CartDetails>(cartDto.CartDetails.First()));
                     await _context.SaveChangesAsync();  
                 }
