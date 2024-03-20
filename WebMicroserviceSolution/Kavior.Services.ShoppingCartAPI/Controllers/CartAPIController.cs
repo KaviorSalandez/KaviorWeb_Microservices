@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Kavior.MessageBus;
 using Kavior.Services.ShoppingCartAPI.Data;
 using Kavior.Services.ShoppingCartAPI.Models;
 using Kavior.Services.ShoppingCartAPI.Models.Dto;
@@ -17,15 +18,19 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
         private ResponseDto _response;
         private IMapper _mapper;
         private readonly AppDbContext _context;
-        private readonly IProductService _productService;
-        private readonly ICouponService _couponService;
-        public CartAPIController(AppDbContext context, IMapper mapper,IProductService productService, ICouponService couponService)
+        private  IProductService _productService;
+        private  ICouponService _couponService;
+        private readonly IMessageBus _messageBus;
+        private IConfiguration _configuration;
+        public CartAPIController(AppDbContext context, IMapper mapper,IProductService productService, ICouponService couponService,IMessageBus messageBus,IConfiguration configuration)
         {
             _mapper = mapper;
             _context = context;
             _response = new ResponseDto();
             _productService = productService;
             _couponService = couponService;
+            _messageBus = messageBus;
+            _configuration = configuration;
         }
         [HttpGet("GetCart/{userId}")]
         public async Task<ResponseDto> GetCart( string userId)
@@ -172,7 +177,21 @@ namespace Kavior.Services.ShoppingCartAPI.Controllers
         }
 
 
-
+        [HttpPost("EmailCartRequest")]
+        public async Task<object> EmailCartRequest([FromBody] CartDto cartDto)
+        {
+            try
+            {
+                await _messageBus.PublicMessage(cartDto,_configuration.GetValue<string>("TopicAndQueueNames:EmailShoppingCartQueue"));
+                _response.Result = true;
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
 
 
     }

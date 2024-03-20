@@ -24,6 +24,11 @@
       },
       {
         "Name": "Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      },
+      {
+        "Name": "Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj",
         "Action": "Start"
       }
     ]

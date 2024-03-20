@@ -1,0 +1,13 @@
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\bin\Debug\net8.0\Kavior.MessageBus.deps.json
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\bin\Debug\net8.0\Kavior.MessageBus.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\bin\Debug\net8.0\Kavior.MessageBus.pdb
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\Kavior.MessageBus.csproj.AssemblyReference.cache
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\Kavior.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\Kavior.MessageBus.AssemblyInfoInputs.cache
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\Kavior.MessageBus.AssemblyInfo.cs
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\Kavior.MessageBus.csproj.CoreCompileInputs.cache
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\Kavior.MessageBus.sourcelink.json
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\Kavior.MessageBus.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\refint\Kavior.MessageBus.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\Kavior.MessageBus.pdb
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.MessageBus\obj\Debug\net8.0\ref\Kavior.MessageBus.dll

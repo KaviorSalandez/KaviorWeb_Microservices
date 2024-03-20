@@ -3,20 +3,104 @@
   "WorkspaceRootPath": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{62E44B42-3B57-48E9-AEEA-B62D517BB486}|Kavior.Services.AuthAPI\\Kavior.Services.AuthAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.authapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E44B42-3B57-48E9-AEEA-B62D517BB486}|Kavior.Services.AuthAPI\\Kavior.Services.AuthAPI.csproj|solutionrelative:kavior.services.authapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E44B42-3B57-48E9-AEEA-B62D517BB486}|Kavior.Services.AuthAPI\\Kavior.Services.AuthAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.authapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E44B42-3B57-48E9-AEEA-B62D517BB486}|Kavior.Services.AuthAPI\\Kavior.Services.AuthAPI.csproj|solutionrelative:kavior.services.authapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\utility\\backendapiauthenticationhttpclienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\utility\\backendapiauthenticationhttpclienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\messaging\\azureservicebusconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\messaging\\azureservicebusconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\extension\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\extension\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{026564BB-E672-4024-BD6C-567BB91070D2}|Kavior.MessageBus\\Kavior.MessageBus.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.messagebus\\messagebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{026564BB-E672-4024-BD6C-567BB91070D2}|Kavior.MessageBus\\Kavior.MessageBus.csproj|solutionrelative:kavior.messagebus\\messagebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{026564BB-E672-4024-BD6C-567BB91070D2}|Kavior.MessageBus\\Kavior.MessageBus.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.messagebus\\imessagebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{026564BB-E672-4024-BD6C-567BB91070D2}|Kavior.MessageBus\\Kavior.MessageBus.csproj|solutionrelative:kavior.messagebus\\imessagebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\messaging\\iazureservicebusconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\messaging\\iazureservicebusconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\models\\dto\\cartheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\models\\dto\\cartheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\models\\emaillogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\models\\emaillogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA9579D6-39D7-4218-8E87-2E8AD917832B}|Kavior.Services.ProductAPI\\Kavior.Services.ProductAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA9579D6-39D7-4218-8E87-2E8AD917832B}|Kavior.Services.ProductAPI\\Kavior.Services.ProductAPI.csproj|solutionrelative:kavior.services.productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.web\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2526B5-08B9-495A-B800-5D5B6811100B}|Kavior.Web\\Kavior.Web.csproj|solutionrelative:kavior.web\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.shoppingcartapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB65B8E8-4ED5-4ADC-9FA7-1294C011FC99}|Kavior.Services.ShoppingCartAPI\\Kavior.Services.ShoppingCartAPI.csproj|solutionrelative:kavior.services.shoppingcartapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\models\\dto\\cartdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\models\\dto\\cartdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|d:\\webapi\\webapi-net8-project\\webmicroservicesolution\\kavior.services.emailapi\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E614B003-8549-4B25-BBCB-69D278A72B0D}|Kavior.Services.EmailAPI\\Kavior.Services.EmailAPI.csproj|solutionrelative:kavior.services.emailapi\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 65,
+          "SelectedChildIndex": 64,
           "Children": [
             {
               "$type": "Bookmark",
@@ -286,53 +370,322 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthAPIController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
+              "RelativeToolTip": "Kavior.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T02:47:09.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.AuthAPI\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.AuthAPI\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.AuthAPI\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Kavior.Services.AuthAPI\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T02:45:26.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMessageBus.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.MessageBus\\IMessageBus.cs",
+              "RelativeDocumentMoniker": "Kavior.MessageBus\\IMessageBus.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.MessageBus\\IMessageBus.cs",
+              "RelativeToolTip": "Kavior.MessageBus\\IMessageBus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T02:06:55.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAzureServiceBusConsumer.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Messaging\\IAzureServiceBusConsumer.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Messaging\\IAzureServiceBusConsumer.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Messaging\\IAzureServiceBusConsumer.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Messaging\\IAzureServiceBusConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T07:31:27.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CartAPIController.cs",
               "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
               "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
               "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
               "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAYwGQAAAAAAAAA",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAIwMAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T16:42:29.122Z",
+              "WhenOpened": "2024-03-04T07:21:51.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Kavior.Web\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Kavior.Web\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAAMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T16:37:07.091Z",
+              "DocumentIndex": 7,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\CartService.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Service\\CartService.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\CartService.cs",
+              "RelativeToolTip": "Kavior.Web\\Service\\CartService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwB0AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:34:47.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Extension\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Extension\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Extension\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Extension\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T08:19:47.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AzureServiceBusConsumer.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Messaging\\AzureServiceBusConsumer.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Messaging\\AzureServiceBusConsumer.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Messaging\\AzureServiceBusConsumer.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Messaging\\AzureServiceBusConsumer.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T07:19:26.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Program.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Program.cs",
-              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACEAAAC0AAAA",
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Service\\EmailService.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Service\\EmailService.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Service\\EmailService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T16:25:46.038Z"
+              "WhenOpened": "2024-03-06T09:18:40.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BackendApiAuthenticationHttpClientHandler.cs",
-              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Utility\\BackendApiAuthenticationHttpClientHandler.cs",
-              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\Utility\\BackendApiAuthenticationHttpClientHandler.cs",
-              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\Utility\\BackendApiAuthenticationHttpClientHandler.cs",
-              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\Utility\\BackendApiAuthenticationHttpClientHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "DocumentIndex": 4,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Service\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Service\\IEmailService.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Service\\IEmailService.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Service\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T16:20:43.577Z"
+              "WhenOpened": "2024-03-06T09:18:32.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MessageBus.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.MessageBus\\MessageBus.cs",
+              "RelativeDocumentMoniker": "Kavior.MessageBus\\MessageBus.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.MessageBus\\MessageBus.cs",
+              "RelativeToolTip": "Kavior.MessageBus\\MessageBus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T01:54:55.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Kavior.Web\\Controllers\\CartController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwEkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:31:52.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kavior.Web\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Kavior.Web\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T10:35:02.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Program.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Program.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T01:07:11.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\appsettings.json",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\appsettings.json",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T07:20:11.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartHeaderDto.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\Dto\\CartHeaderDto.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Models\\Dto\\CartHeaderDto.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\Dto\\CartHeaderDto.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Models\\Dto\\CartHeaderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T07:12:39.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailLogger.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\EmailLogger.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Models\\EmailLogger.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\EmailLogger.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Models\\EmailLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:34:37.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductAPIController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
+              "RelativeToolTip": "Kavior.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T01:53:24.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\Dto\\CartDto.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Models\\Dto\\CartDto.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\Dto\\CartDto.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Models\\Dto\\CartDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T07:12:37.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Kavior.Web\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwEwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T15:56:27.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Service\\AuthService.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\AuthService.cs",
+              "RelativeToolTip": "Kavior.Web\\Service\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:16:09.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "Kavior.Web\\Service\\BaseService.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\Service\\BaseService.cs",
+              "RelativeToolTip": "Kavior.Web\\Service\\BaseService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAIAwwC4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:16:11.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Kavior.Services.ShoppingCartAPI\\appsettings.json",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ShoppingCartAPI\\appsettings.json",
+              "RelativeToolTip": "Kavior.Services.ShoppingCartAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T07:20:26.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\Dto\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Models\\Dto\\ProductDto.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\Dto\\ProductDto.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Models\\Dto\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T07:15:55.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartDetailsDto.cs",
+              "DocumentMoniker": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\Dto\\CartDetailsDto.cs",
+              "RelativeDocumentMoniker": "Kavior.Services.EmailAPI\\Models\\Dto\\CartDetailsDto.cs",
+              "ToolTip": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.EmailAPI\\Models\\Dto\\CartDetailsDto.cs",
+              "RelativeToolTip": "Kavior.Services.EmailAPI\\Models\\Dto\\CartDetailsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T07:12:05.597Z"
             }
           ]
         },
@@ -441,10 +794,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }

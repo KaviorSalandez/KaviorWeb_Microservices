@@ -1,0 +1,6 @@
+@Kavior.Services.EmailAPI_HostAddress = http://localhost:5232
+
+GET {{Kavior.Services.EmailAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

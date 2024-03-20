@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lVohAvoUFxZnx0ORcdk5/kdQLswezjdjyr9yzplryno=",
+  "Source": "Kavior.Services.EmailAPI",
+  "BasePath": "_content/Kavior.Services.EmailAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

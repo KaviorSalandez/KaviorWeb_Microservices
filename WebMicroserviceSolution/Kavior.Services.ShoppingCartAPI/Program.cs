@@ -1,4 +1,5 @@
 using AutoMapper;
+using Kavior.MessageBus;
 using Kavior.Services.ShoppingCartAPI;
 using Kavior.Services.ShoppingCartAPI.Data;
 using Kavior.Services.ShoppingCartAPI.Extensions;
@@ -29,7 +30,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<BackendApiAuthenticationHttpClientHandler>();
 
 builder.Services.AddScoped<ICouponService, CouponService>();
-
+builder.Services.AddScoped<IMessageBus, MessageBus>();
 builder.Services.AddHttpClient("Product", x=>x.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"])).AddHttpMessageHandler<BackendApiAuthenticationHttpClientHandler>();
 builder.Services.AddHttpClient("Coupon", x=>x.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CouponAPI"])).AddHttpMessageHandler<BackendApiAuthenticationHttpClientHandler>();
 

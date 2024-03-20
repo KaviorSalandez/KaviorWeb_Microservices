@@ -43,6 +43,22 @@
   },
   {
     "ContainingType": "Kavior.Services.ShoppingCartAPI.Controllers.CartAPIController",
+    "Method": "EmailCartRequest",
+    "RelativePath": "api/cart/EmailCartRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "Kavior.Services.ShoppingCartAPI.Models.Dto.CartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kavior.Services.ShoppingCartAPI.Controllers.CartAPIController",
     "Method": "GetCart",
     "RelativePath": "api/cart/GetCart/{userId}",
     "HttpMethod": "GET",
