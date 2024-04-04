@@ -55,5 +55,10 @@ namespace Kavior.Services.EmailAPI.Service
 
 
 
+        public async Task RegisterUserEmailAndLog(string email)
+        {
+            string message = "User registeration successfull. <br/> Email: " + email;
+            await LogAndEmail(message, "emailadmin@gmail.com");
+        }
     }
 }

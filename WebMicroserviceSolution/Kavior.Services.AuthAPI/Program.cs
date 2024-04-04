@@ -1,3 +1,4 @@
+using Kavior.MessageBus;
 using Kavior.Services.AuthAPI.Data;
 using Kavior.Services.AuthAPI.Models;
 using Kavior.Services.AuthAPI.Service;
@@ -25,8 +26,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFramework
 // register the service
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-
-
+builder.Services.AddScoped<IMessageBus,MessageBus>();
 
 var app = builder.Build();
 

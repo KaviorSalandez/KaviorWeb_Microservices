@@ -10,7 +10,7 @@ namespace Kavior.MessageBus
 {
     public class MessageBus : IMessageBus
     {
-        private string connectionString = "Endpoint=sb://kaviorweb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=5hmCxn4tsktERus7RIKdfDLvhmU89YQ38+ASbMub5go=";
+        private string connectionString = "Endpoint=sb://kaviorweb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=aB7ntbb+/+XCH8r5COuHtsLODL6NmYhoV+ASbJ5JSeE=";
         public async Task PublicMessage(object message, string topic_queue_Name)
         {
             await using var client = new ServiceBusClient(connectionString);

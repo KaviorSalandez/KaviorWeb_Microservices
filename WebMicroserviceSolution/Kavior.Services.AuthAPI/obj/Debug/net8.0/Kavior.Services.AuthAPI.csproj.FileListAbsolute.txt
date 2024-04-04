@@ -8,12 +8,15 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bi
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\AutoMapper.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Azure.Core.Amqp.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Humanizer.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -41,6 +44,7 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bi
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -122,6 +126,8 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bi
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Kavior.MessageBus.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\bin\Debug\net8.0\Kavior.MessageBus.pdb
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\Kavior.Services.AuthAPI.csproj.AssemblyReference.cache
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\Kavior.Services.AuthAPI.GeneratedMSBuildEditorConfig.editorconfig
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.AuthAPI\obj\Debug\net8.0\Kavior.Services.AuthAPI.AssemblyInfoInputs.cache

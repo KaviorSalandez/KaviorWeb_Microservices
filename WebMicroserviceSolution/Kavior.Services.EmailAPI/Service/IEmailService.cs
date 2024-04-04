@@ -6,5 +6,6 @@ namespace Kavior.Services.EmailAPI.Service
     {
         Task EmailCartAndLog(CartDto cartDto);
 
+        Task RegisterUserEmailAndLog(string email);
     }
 }
