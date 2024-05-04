@@ -138,3 +138,5 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.CouponAPI\
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.CouponAPI\obj\Debug\net8.0\Kavior.Services.CouponAPI.pdb
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.CouponAPI\obj\Debug\net8.0\Kavior.Services.CouponAPI.genruntimeconfig.cache
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.CouponAPI\obj\Debug\net8.0\ref\Kavior.Services.CouponAPI.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.CouponAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.CouponAPI\bin\Debug\net8.0\Stripe.net.dll

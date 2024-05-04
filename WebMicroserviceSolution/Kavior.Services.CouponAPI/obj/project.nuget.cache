@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ltlxRWcQhSxrHbgJlTm2qNCHgtBDZWG3t+MsRYDDPya1zCn4BXl+7iq2+4/rx5Ub5pC+oR6ZAf3k+szWcREOiA==",
+  "dgSpecHash": "AfABa5kz9weoxpNdu9lmibB7nV2V9O67pAFMBEE3yujmzgJ5PcciAXl/NcE1E5YkSBnA7dui3fY4WRt6ogcOjQ==",
   "success": true,
   "projectFilePath": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.CouponAPI\\Kavior.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,8 @@
     "C:\\Users\\canduykhanh\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\canduykhanh\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\canduykhanh\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\canduykhanh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\canduykhanh\\.nuget\\packages\\stripe.net\\44.5.0\\stripe.net.44.5.0.nupkg.sha512",
     "C:\\Users\\canduykhanh\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\canduykhanh\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\canduykhanh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

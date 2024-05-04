@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wTerMCEZqmB0Oa/QIYNy2ooMzbaAkm9DEpD7SfHW6QM=",
+  "Source": "Kavior.Service.OrderAPI",
+  "BasePath": "_content/Kavior.Service.OrderAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

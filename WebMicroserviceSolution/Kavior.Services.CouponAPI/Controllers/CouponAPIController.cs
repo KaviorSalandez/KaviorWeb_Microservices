@@ -90,6 +90,19 @@ namespace Kavior.Services.CouponAPI.Controllers
                 Coupon obj = _mapper.Map<Coupon>(couponDto);
                 _context.Coupons.Add(obj);
                 _context.SaveChanges();
+
+                // create coupon in stripe
+                var options = new Stripe.CouponCreateOptions
+                {
+                    Name = couponDto.CouponCode,
+                    Currency = "usd",
+                    Id = couponDto.CouponCode,
+                    AmountOff = (long) (couponDto.DiscountAmount * 100)
+                };
+                var service = new Stripe.CouponService();
+                service.Create(options);
+
+
                 _response.Result = _mapper.Map<CouponDto>(obj);
             }
             catch (Exception ex)
@@ -130,6 +143,13 @@ namespace Kavior.Services.CouponAPI.Controllers
                 Coupon obj = _context.Coupons.First(x=>x.CouponId==id);
                 _context.Coupons.Remove(obj);
                 _context.SaveChanges();
+
+             
+                var service = new Stripe.CouponService();
+                service.Delete(obj.CouponCode);
+
+
+
             }
             catch (Exception ex)
             {

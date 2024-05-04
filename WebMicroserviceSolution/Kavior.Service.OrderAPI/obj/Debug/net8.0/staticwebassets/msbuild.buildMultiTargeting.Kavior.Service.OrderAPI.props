@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Kavior.Service.OrderAPI.props" />
+</Project>
