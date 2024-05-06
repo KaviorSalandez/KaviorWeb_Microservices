@@ -1,4 +1,5 @@
 using AutoMapper;
+using Kavior.MessageBus;
 using Kavior.Service.OrderAPI;
 using Kavior.Services.OrderAPI.Data;
 using Kavior.Services.OrderAPI.Extensions;
@@ -27,6 +28,8 @@ builder.Services.AddScoped<IProductService, ProductService>();
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<BackendApiAuthenticationHttpClientHandler>();
+
+builder.Services.AddScoped<IMessageBus, MessageBus>();
 
 builder.Services.AddHttpClient("Product", x => x.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"])).AddHttpMessageHandler<BackendApiAuthenticationHttpClientHandler>();
 

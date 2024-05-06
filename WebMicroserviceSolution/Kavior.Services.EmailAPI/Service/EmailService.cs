@@ -1,4 +1,5 @@
 ﻿using Kavior.Services.EmailAPI.Data;
+using Kavior.Services.EmailAPI.Message;
 using Kavior.Services.EmailAPI.Models;
 using Kavior.Services.EmailAPI.Models.Dto;
 using Microsoft.EntityFrameworkCore;
@@ -59,6 +60,12 @@ namespace Kavior.Services.EmailAPI.Service
         {
             string message = "User registeration successfull. <br/> Email: " + email;
             await LogAndEmail(message, "emailadmin@gmail.com");
+        }
+
+        public async Task LogOrderPlaced(RewardsMessage rewardsDto)
+        {
+            string message = "New order placed. <br/> Order ID : " + rewardsDto.OrderId;
+            await LogAndEmail(message, "khanhcdhe161501@fpt.edu.vn");
         }
     }
 }

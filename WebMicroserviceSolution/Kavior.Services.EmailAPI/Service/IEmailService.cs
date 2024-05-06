@@ -1,4 +1,5 @@
 ﻿using Kavior.Services.EmailAPI.Models.Dto;
+using Kavior.Services.EmailAPI.Message;
 
 namespace Kavior.Services.EmailAPI.Service
 {
@@ -7,5 +8,7 @@ namespace Kavior.Services.EmailAPI.Service
         Task EmailCartAndLog(CartDto cartDto);
 
         Task RegisterUserEmailAndLog(string email);
+
+        Task LogOrderPlaced(RewardsMessage rewardsMessage);
     }
 }

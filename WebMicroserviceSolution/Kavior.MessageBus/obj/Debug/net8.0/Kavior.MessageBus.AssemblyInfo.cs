@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kavior.MessageBus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f58e54b13192beb74ff1d035251fe5ebf824f80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9c18176994aecdc453cef6c7280f75cb959b0fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kavior.MessageBus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kavior.MessageBus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

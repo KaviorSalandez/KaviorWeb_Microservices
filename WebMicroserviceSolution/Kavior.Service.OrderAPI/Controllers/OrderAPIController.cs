@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Kavior.MessageBus;
 using Kavior.Service.OrderAPI.Models;
 using Kavior.Service.OrderAPI.Models.Dto;
 using Kavior.Service.OrderAPI.Utility;
@@ -20,11 +21,14 @@ namespace Kavior.Service.OrderAPI.Controllers
         private readonly AppDbContext _context;
         private IProductService _productService;
         private IConfiguration _configuration;
-        public OrderAPIController(AppDbContext context, IMapper mapper, IConfiguration configuration)
+        private readonly IMessageBus _messageBus;
+
+        public OrderAPIController(AppDbContext context, IMapper mapper, IConfiguration configuration,IMessageBus messageBus)
         {
             _context = context;
             _configuration = configuration;
             _mapper = mapper;
+            _messageBus = messageBus;
             _response = new ResponseDto();
         }
 
@@ -154,6 +158,16 @@ namespace Kavior.Service.OrderAPI.Controllers
                     order.PaymentIntentId = paymentIntent.Id;
                     order.Status = SD.Status_Approved;
                     _context.SaveChanges();
+
+                    RewardsDto rewardsDto = new RewardsDto()
+                    {
+                        OrderId = order.Id,
+                        RewardsActivity = Convert.ToInt32(order.OrderTotal), // 1$ = 1 point
+                        UserId = order.UserId
+                    };
+                    string topicName = _configuration.GetValue<string>("TopicAndQueueNames:OrderCreatedTopic");
+                    await  _messageBus.PublicMessage(rewardsDto, topicName);
+
 
                     _response.Result = _mapper.Map<OrderDto>(order);
                 }

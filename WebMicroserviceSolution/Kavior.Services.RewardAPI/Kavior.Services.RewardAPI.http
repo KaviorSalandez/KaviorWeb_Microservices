@@ -1,0 +1,6 @@
+@Kavior.Services.RewardAPI_HostAddress = http://localhost:5217
+
+GET {{Kavior.Services.RewardAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

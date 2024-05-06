@@ -12,8 +12,8 @@ builder.Services.AddDbContext<AppDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("MyCnn"));
 });
 
+//injecting the Db Context in the mail Service
 var optionBuilder = new DbContextOptionsBuilder<AppDbContext>();
-
 optionBuilder.UseSqlServer(builder.Configuration.GetConnectionString("MyCnn"));
 builder.Services.AddSingleton(new EmailService(optionBuilder.Options));
 

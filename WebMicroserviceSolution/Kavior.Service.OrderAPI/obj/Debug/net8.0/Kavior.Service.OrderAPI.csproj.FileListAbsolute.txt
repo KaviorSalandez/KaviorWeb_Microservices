@@ -140,3 +140,8 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\ob
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\obj\Debug\net8.0\Kavior.Service.OrderAPI.genruntimeconfig.cache
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\obj\Debug\net8.0\ref\Kavior.Service.OrderAPI.dll
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\bin\Debug\net8.0\Stripe.net.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\bin\Debug\net8.0\Azure.Core.Amqp.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\bin\Debug\net8.0\Kavior.MessageBus.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Service.OrderAPI\bin\Debug\net8.0\Kavior.MessageBus.pdb
