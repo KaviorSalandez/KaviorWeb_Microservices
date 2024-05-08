@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lDaMOFgQ2iwhQd0ILfu3ZRzuYMdzQotggNoDrGwKiao=",
+  "Hash": "4Jd+KCPv2Hwa0Ewk41NTlJQtZfz9sGMQLIxebUrtY7A=",
   "Source": "Kavior.Web",
   "BasePath": "_content/Kavior.Web",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\order.PNG"
+    },
+    {
+      "Identity": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\wwwroot\\js\\order.js",
+      "SourceId": "Kavior.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\wwwroot\\",
+      "BasePath": "_content/Kavior.Web",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\wwwroot\\js\\site.js",

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images\\order.PNG"
     },
     {
+      "Id": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
       "Id": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

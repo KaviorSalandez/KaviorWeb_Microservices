@@ -9,8 +9,8 @@
         public const string Status_Refund = "Refunded";
         public const string Status_Cancelled = "Cancelled";
 
-        public const string RoleAdmin = "Admin";
-        public const string RoleCustomer = "Customer";
+        public const string RoleAdmin = "ADMIN";
+        public const string RoleCustomer = "CUSTOMER";
 
     }
 }

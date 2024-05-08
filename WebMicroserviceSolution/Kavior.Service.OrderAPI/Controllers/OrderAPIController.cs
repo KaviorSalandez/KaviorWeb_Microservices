@@ -8,6 +8,7 @@ using Kavior.Services.OrderAPI.Service.IService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Stripe;
 
 namespace Kavior.Service.OrderAPI.Controllers
@@ -23,7 +24,7 @@ namespace Kavior.Service.OrderAPI.Controllers
         private IConfiguration _configuration;
         private readonly IMessageBus _messageBus;
 
-        public OrderAPIController(AppDbContext context, IMapper mapper, IConfiguration configuration,IMessageBus messageBus)
+        public OrderAPIController(AppDbContext context, IMapper mapper, IConfiguration configuration, IMessageBus messageBus)
         {
             _context = context;
             _configuration = configuration;
@@ -31,6 +32,83 @@ namespace Kavior.Service.OrderAPI.Controllers
             _messageBus = messageBus;
             _response = new ResponseDto();
         }
+
+        [Authorize]
+        [HttpGet("GetOrders")]
+        public ResponseDto? Get(string? userId = "")
+        {
+            // if the user -> get order of this user
+            // if the admin -> get all order
+            try
+            {
+                IEnumerable<Order> objList;
+                if (User.IsInRole(SD.RoleAdmin))
+                {
+                    objList = _context.Orders.Include(x => x.OrderDetails).OrderByDescending(x => x.Id).ToList();
+                }
+                else
+                {
+                    objList = _context.Orders.Include(x => x.OrderDetails).Where(x => x.UserId == userId).OrderByDescending(x => x.Id).ToList();
+                }
+                _response.Result = _mapper.Map<IEnumerable<OrderDto>>(objList);
+            }
+            catch (Exception ex)
+            {
+                _response.Message = ex.Message;
+                _response.IsSuccess = false;
+            }
+            return _response;
+        }
+
+        [Authorize]
+        [HttpGet("GetOrderById/{id:int}")]
+        public ResponseDto? GetOrderById(int id)
+        {
+            try
+            {
+                Order order = _context.Orders.Include(x => x.OrderDetails).First(x => x.Id == id);
+                _response.Result = _mapper.Map<OrderDto>(order);
+            }
+            catch (Exception ex)
+            {
+                _response.Message = ex.Message;
+                _response.IsSuccess = false;
+            }
+            return _response;
+        }
+
+        [Authorize]
+        [HttpPost("UpdateOrderStatus/{orderId:int}")]
+        public ResponseDto? UpdateOrderStatus(int orderId, [FromBody] string newStatus)
+        {
+            try
+            {
+                Order order = _context.Orders.First(x => x.Id == orderId);
+                if (order != null)
+                {
+                    if (newStatus == SD.Status_Cancelled)
+                    {
+                        // hoàn lại tiền 
+                        var options = new RefundCreateOptions
+                        {
+                            Reason = RefundReasons.RequestedByCustomer,
+                            PaymentIntent = order.PaymentIntentId,
+                        };
+                        var service = new RefundService();
+                        Refund refund = service.Create(options);
+                    }
+                    order.Status = newStatus;
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                _response.Message = ex.Message;
+                _response.IsSuccess = false;
+            }
+            return _response;
+        }
+
 
         [Authorize]
         [HttpPost("CreateOrder")]
@@ -74,7 +152,7 @@ namespace Kavior.Service.OrderAPI.Controllers
                 var options = new Stripe.Checkout.SessionCreateOptions
                 {
                     SuccessUrl = stripeRequestDto.ApprovedUrl,
-                    CancelUrl  = stripeRequestDto?.CancelUrl,
+                    CancelUrl = stripeRequestDto?.CancelUrl,
                     LineItems = new List<Stripe.Checkout.SessionLineItemOptions>(),
                     Mode = "payment",
                 };
@@ -113,7 +191,7 @@ namespace Kavior.Service.OrderAPI.Controllers
                 }
 
                 var service = new Stripe.Checkout.SessionService();
-                var session =  service.Create(options); // session này sẽ chứa các thuộc tính cần thiết cho url
+                var session = service.Create(options); // session này sẽ chứa các thuộc tính cần thiết cho url
 
                 stripeRequestDto.StripeSessionUrl = session.Url;
                 // Url này là cần thiết vì dựa vào nó, ứng dụng web của bạn sẽ biết chuyển hướng đến đâu để thu được khoản thanh toán
@@ -152,7 +230,7 @@ namespace Kavior.Service.OrderAPI.Controllers
 
                 var paymentIntentService = new Stripe.PaymentIntentService();
                 PaymentIntent paymentIntent = paymentIntentService.Get(session.PaymentIntentId);
-                if(paymentIntent.Status== "succeeded")
+                if (paymentIntent.Status == "succeeded")
                 {
                     // then payment was successful
                     order.PaymentIntentId = paymentIntent.Id;
@@ -166,7 +244,7 @@ namespace Kavior.Service.OrderAPI.Controllers
                         UserId = order.UserId
                     };
                     string topicName = _configuration.GetValue<string>("TopicAndQueueNames:OrderCreatedTopic");
-                    await  _messageBus.PublicMessage(rewardsDto, topicName);
+                    await _messageBus.PublicMessage(rewardsDto, topicName);
 
 
                     _response.Result = _mapper.Map<OrderDto>(order);
