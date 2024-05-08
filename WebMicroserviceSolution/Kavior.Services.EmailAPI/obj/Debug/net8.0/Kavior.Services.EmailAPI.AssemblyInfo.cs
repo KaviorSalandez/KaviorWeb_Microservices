@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kavior.Services.EmailAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9c18176994aecdc453cef6c7280f75cb959b0fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a1375afc28912d5252fac80d1e80282d294b986")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kavior.Services.EmailAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kavior.Services.EmailAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

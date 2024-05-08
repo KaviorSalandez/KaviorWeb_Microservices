@@ -138,3 +138,4 @@ D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ProductAPI
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ProductAPI\obj\Debug\net8.0\Kavior.Services.ProductAPI.pdb
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ProductAPI\obj\Debug\net8.0\Kavior.Services.ProductAPI.genruntimeconfig.cache
 D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ProductAPI\obj\Debug\net8.0\ref\Kavior.Services.ProductAPI.dll
+D:\WebAPI\webapi-net8-project\WebMicroserviceSolution\Kavior.Services.ProductAPI\bin\Debug\net8.0\Kavior.Services.ProductAPI.staticwebassets.runtime.json

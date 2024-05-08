@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "Ky17jvZp5VWUNBM/jLkc8c8HYgthzA9okIio2Ao5ka4=",
+  "Hash": "QH1TbXcNgz6Oj9FoXoAkFx6tnZhaBbS6Uz8B2ZowbN0=",
   "Source": "Kavior.Services.ProductAPI",
   "BasePath": "_content/Kavior.Services.ProductAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Kavior.Services.ProductAPI\\wwwroot",
+      "Source": "Kavior.Services.ProductAPI",
+      "ContentRoot": "D:\\WebAPI\\webapi-net8-project\\WebMicroserviceSolution\\Kavior.Services.ProductAPI\\wwwroot\\",
+      "BasePath": "_content/Kavior.Services.ProductAPI",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

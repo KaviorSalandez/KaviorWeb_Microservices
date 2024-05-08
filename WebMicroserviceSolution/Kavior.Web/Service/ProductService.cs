@@ -18,7 +18,8 @@ namespace Kavior.Web.Service
             {
                 ApiType = SD.ApiType.POST,
                 Data = ProductDto,
-                Url = SD.ProductAPIBase + "/api/product/"
+                Url = SD.ProductAPIBase + "/api/product/",
+                ContentType = SD.ContentType.MultipartFormData
             });
         }
 
@@ -56,7 +57,8 @@ namespace Kavior.Web.Service
             {
                 ApiType = SD.ApiType.PUT,
                 Data = ProductDto,
-                Url = SD.ProductAPIBase + "/api/product/"  
+                Url = SD.ProductAPIBase + "/api/product/",
+                ContentType = SD.ContentType.MultipartFormData
             });
         }
     }

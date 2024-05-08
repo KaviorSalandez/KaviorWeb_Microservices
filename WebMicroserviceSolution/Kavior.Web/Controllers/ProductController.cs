@@ -17,8 +17,8 @@ namespace Kavior.Web.Controllers
         public async Task<IActionResult> Index()
         {
             List<ProductDto> list = new List<ProductDto>();
-            ResponseDto? response = await _ProductService.GetAllProductAsync();   
-            if(response != null && response.IsSuccess)
+            ResponseDto? response = await _ProductService.GetAllProductAsync();
+            if (response != null && response.IsSuccess)
             {
                 list = JsonConvert.DeserializeObject<List<ProductDto>>(Convert.ToString(response.Result));
             }
@@ -29,15 +29,15 @@ namespace Kavior.Web.Controllers
             return View(list);
         }
 
-		public async Task<IActionResult> Create()
-		{
-			return View();
-		}
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
 
         [HttpPost]
         public async Task<IActionResult> Create(ProductDto model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 ResponseDto? response = await _ProductService.CreateProductAsync(model);
                 if (response != null && response.IsSuccess)
@@ -107,17 +107,20 @@ namespace Kavior.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(ProductDto model)
         {
-
-            ResponseDto? response = await _ProductService.UpdateProductAsync(model);
-            if (response != null && response.IsSuccess)
+            if (ModelState.IsValid)
             {
-                TempData["success"] = "Product updated successfully";
 
-                return RedirectToAction(nameof(Index));
-            }
-            else
-            {
-                TempData["error"] = response?.Message;
+                ResponseDto? response = await _ProductService.UpdateProductAsync(model);
+                if (response != null && response.IsSuccess)
+                {
+                    TempData["success"] = "Product updated successfully";
+
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    TempData["error"] = response?.Message;
+                }
             }
             return View(model);
         }

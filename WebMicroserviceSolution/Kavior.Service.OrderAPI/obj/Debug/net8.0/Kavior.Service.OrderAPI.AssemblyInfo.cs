@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kavior.Service.OrderAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83ba3134dc5ca651218ac94987fe487b33fb0cdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a1375afc28912d5252fac80d1e80282d294b986")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kavior.Service.OrderAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kavior.Service.OrderAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

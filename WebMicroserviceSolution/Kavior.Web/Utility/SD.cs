@@ -23,6 +23,12 @@
         public const string Status_Complete = "Complete";
         public const string Status_Refund = "Refunded";
         public const string Status_Cancelled = "Cancelled";
+        // content type
+        public enum ContentType
+        {
+            Json,
+            MultipartFormData,
+        }
 
         public enum ApiType
         {

@@ -58,14 +58,34 @@ namespace Kavior.Services.ProductAPI.Controllers
 
         [HttpPost]
         [Authorize(Roles ="ADMIN")]
-        public ResponseDto Post( [FromBody] ProductDto ProductDto)
+        public ResponseDto Post( [FromForm] ProductDto ProductDto)
         {
             try
             {
-                Product obj = _mapper.Map<Product>(ProductDto);
-                _context.Products.Add(obj);
+                Product product = _mapper.Map<Product>(ProductDto);
+                _context.Products.Add(product);
                 _context.SaveChanges();
-                _response.Result = _mapper.Map<ProductDto>(obj);
+                if(ProductDto.Image != null)
+                {
+                    string fileName = product.Id + Path.GetExtension(ProductDto.Image.FileName);//1 .jpg
+                    string filePath = @"wwwroot\ProductImages\" + fileName;
+                    // lấy đưuọc thư mục đường dẫn file bằng cách kết hợp giữa dđường dẫn file với thư mục hiện tại
+                    var filePathDirectory = Path.Combine(Directory.GetCurrentDirectory(), filePath);
+                    using (var fileStream = new FileStream(filePathDirectory, FileMode.Create))
+                    {
+                        ProductDto.Image.CopyTo(fileStream);
+                    }
+                    var baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.Value}{HttpContext.Request.PathBase.Value}";
+                    product.ImageLocalPath = filePath;
+                    product.ImageUrl = baseUrl+"/ProductImages/"+fileName;
+                }
+                else
+                {
+                    product.ImageUrl = "https://placehold.co/600x400";
+                }
+                _context.Products.Update(product);
+                _context.SaveChanges();
+                _response.Result = _mapper.Map<ProductDto>(product);
             }
             catch (Exception ex)
             {
@@ -78,14 +98,40 @@ namespace Kavior.Services.ProductAPI.Controllers
         [HttpPut]
         [Authorize(Roles = "ADMIN")]
 
-        public ResponseDto Put([FromBody] ProductDto ProductDto)
+        public ResponseDto Put(ProductDto ProductDto)
         {
             try
             {
-                Product obj = _mapper.Map<Product>(ProductDto);
-                _context.Products.Update(obj);
+                Product product = _mapper.Map<Product>(ProductDto);
+
+                if (ProductDto.Image != null)
+                {
+                    // xóa ảnh cũ
+                    if (!string.IsNullOrEmpty(product.ImageLocalPath))
+                    {
+                        var oldFilePathDirectory = Path.Combine(Directory.GetCurrentDirectory(), product.ImageLocalPath);
+                        FileInfo file = new FileInfo(oldFilePathDirectory);
+                        if (file.Exists)
+                        {
+                            file.Delete();
+                        }
+                    }
+                    string fileName = product.Id + Path.GetExtension(ProductDto.Image.FileName);//1 .jpg
+                    string filePath = @"wwwroot\ProductImages\" + fileName;
+                    // lấy đưuọc thư mục đường dẫn file bằng cách kết hợp giữa dđường dẫn file với thư mục hiện tại
+                    var filePathDirectory = Path.Combine(Directory.GetCurrentDirectory(), filePath);
+                    using (var fileStream = new FileStream(filePathDirectory, FileMode.Create))
+                    {
+                        ProductDto.Image.CopyTo(fileStream);
+                    }
+                    var baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.Value}{HttpContext.Request.PathBase.Value}";
+                    product.ImageLocalPath = filePath;
+                    product.ImageUrl = baseUrl + "/ProductImages/" + fileName;
+                }
+
+                _context.Products.Update(product);
                 _context.SaveChanges();
-                _response.Result = _mapper.Map<ProductDto>(obj);
+                _response.Result = _mapper.Map<ProductDto>(product);
             }
             catch (Exception ex)
             {
@@ -103,6 +149,16 @@ namespace Kavior.Services.ProductAPI.Controllers
             try
             {
                 Product obj = _context.Products.First(x=>x.Id==id);
+                //before delete, try to retrieve that image local path
+                if(!string.IsNullOrEmpty(obj.ImageLocalPath))
+                {
+                    var oldFilePathDirectory = Path.Combine(Directory.GetCurrentDirectory(), obj.ImageLocalPath);
+                    FileInfo file = new FileInfo(oldFilePathDirectory);
+                    if (file.Exists)
+                    {
+                        file.Delete();
+                    }
+                }
                 _context.Products.Remove(obj);
                 _context.SaveChanges();
             }
